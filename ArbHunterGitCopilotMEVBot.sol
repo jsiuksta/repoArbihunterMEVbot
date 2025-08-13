@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+// last written 11/08/2025 22:27
 pragma solidity ^0.8.21;
 
 // Interfaces (Simplified, for brevity)
@@ -54,24 +55,30 @@ address constant MANYU = 0x95AF4aF910c28E8EcE4512BFE46F1F33687424ce;
 address constant TrueGBP = 0x00000000441378008ea67f4284a57932b1c000a5;
 address constant GYEN = 0xC08512927D12348F6620a698105e1BAac6EcD911;
 address constant EURC=0x1abaea1f7c830bd89acc67ec4af516284b1bc33c;
+address constant XYO=0x55296f69f40ea6d20e478533c15a6b08b654e758;
+address constant OKB=0x75231f58b43240c9718dd58b4967c5114342a86c;
+address constant BAO=0xce391315b414d4c7555956120461d21808a69f3a;
+address constant STETH=0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84;
+address constant WBTC=0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
+address constant DAI=0x6B175474E89094C44Da98b954EedeAC495271d0F;
+address constant LINK= 0x514910771AF9Ca656af840dff83E8264EcF986CA;
+address constant SHIB= 0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE;
+address constant PAXG= 0x45804880De22913dAFE09f4980848ECE6EcbAf78;
+address constant GRT= 0xc944E90C64B2c2c7eA1aFf5E0dF0Ff9c3B1E07f0;
+address constant FET= 0xaea46A603c19E2fA1A8fBdec44A5A5E887e90367;
+address constant LDO= 0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32;
+address constant NEXO= 0xB62132e35a6cA7eFe0cA0e4C6C3B9E8aB5b3aE6a;
+address constant ENS=0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85;
+address constant PEPE =0x6982508145454Ce325dDbE47a25d4ec3d2311933;
+address constant CRV =0xD533a949740bb3306d119CC777fa900bA034cd52;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// Add all asset addresses...
-
-address constant UNISWAP_ROUTER = /* Uniswap v2 Router address */;
+// PROTOCOL ADRESSES
+address constant UNISWAP_ROUTER = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
 // Add other protocol addresses...
+address constant Sushiswap = 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2;
+
 
 contract ArbHunterGitCopilotMEVBot {
 
@@ -80,7 +87,7 @@ contract ArbHunterGitCopilotMEVBot {
         USDT, USDC, ETH, WETH, /* ... all other asset addresses ... */
     ];
 
-    // Protocol routers
+    // Protocol routers,
     address[] public routers = [
         UNISWAP_ROUTER, /* ... all other router addresses ... */
     ];
