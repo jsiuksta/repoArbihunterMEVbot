@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// last written 11/08/2025 22:27
+// last written 15/08/2025 21:00
 pragma solidity ^0.8.21;
 
 // Interfaces (Simplified, for brevity)
@@ -49,7 +49,7 @@ address constant SPX = 0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c;
 address constant VIRTUAL = 0x44ff8620b8cA30902395A7bD3F2407e1A091BF73;
 address constant UBEX = 0x6704b673c70de9bf74c8fba4b4bd748f0e2190e1;
 address constant BLOCK = 0xCaB84bc21F9092167fCFe0ea60f5CE053ab39a1E;
-address constant  PLSPAD = 0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a;
+address constant PLSPAD = 0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a;
 address constant BUSY = 0x5CB3ce6D081fB00d5f6677d196f2d70010EA3f4a;
 address constant MANYU = 0x95AF4aF910c28E8EcE4512BFE46F1F33687424ce;
 address constant TrueGBP = 0x00000000441378008ea67f4284a57932b1c000a5;
@@ -74,7 +74,8 @@ address constant CRV =0xD533a949740bb3306d119CC777fa900bA034cd52;
 
 
 
-// PROTOCOL ADRESSES
+// PROTOCOL ADRESSES: 
+// See ArbHunterGitCopilot.odt and Coingeko exchanges-eth
 address constant UNISWAP_ROUTER = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
 // Add other protocol addresses...
 address constant Sushiswap = 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2;
@@ -83,9 +84,7 @@ address constant Sushiswap = 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2;
 contract ArbHunterGitCopilotMEVBot {
 
     // Asset list for arbitrage
-    address[] public assets = [
-        USDT, USDC, ETH, WETH, /* ... all other asset addresses ... */
-    ];
+    address[] public assets = [USDT, USDC, ETH, WETH, vMint, sUSDS, USDL, TREAT, SSLP, LEO, BGB, SPX, VIRTUAL, UBEX, BLOCK, PLSPAD, BUSY, MANYU, TrueGBP, GYEN, EURC, XYO, OKB, BAO, STETH, WBTC, DAI, LINK, SHIB, PAXG, GRT, FET, LDO, NEXO, ENS, PEPE ];
 
     // Protocol routers,
     address[] public routers = [
