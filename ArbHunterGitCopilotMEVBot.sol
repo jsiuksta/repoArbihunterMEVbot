@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// last written 15/08/2025 21:00
+// last written 16/08/2025 22:53
 pragma solidity ^0.8.21;
 
 // Interfaces (Simplified, for brevity)
@@ -79,6 +79,17 @@ address constant CRV =0xD533a949740bb3306d119CC777fa900bA034cd52;
 address constant UNISWAP_ROUTER = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
 // Add other protocol addresses...
 address constant Sushiswap = 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2;
+address constant UniswapV3 = 0x1f98431c8ad98523631ae4a59f267346ea31f984;
+address constant Curve = 0x0000000022D53366457F9d5E68Ec105046FC4383;
+address constant UniswapV2 = 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f;
+address constant Native = 0x0f9f2366C6157F2aCD3C2bFA45Cd9031c152D2Cf;
+address constant PancakeSwapV3 = 0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865;
+address constant tanX = 0x36b6972580dab5116e2701da06232fcbd66bec71;
+address constant Bunni = 0x000000c396558ffbab5ea628f39658bdf61345b3;
+address constant SolidlyV3 = 0x53cce50d77f4e18c8bb633dd1c2fbe99e0fb71be;
+
+
+
 
 
 contract ArbHunterGitCopilotMEVBot {
