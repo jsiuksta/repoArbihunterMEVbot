@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 //GROKIFIED+PROTOCOLS
-// last written 23/08/2025 13:57
+// last written 23/08/2025 14:28
 // Same as GrokifiedMevbot but with more protocols added
 pragma solidity ^0.8.21;
 
@@ -90,7 +90,7 @@ address constant Bunni = 0x000000C396558ffbAB5Ea628f39658Bdf61345b3;
 address constant SolidlyV3 = 0x53cCe50D77f4E18C8Bb633Dd1C2fBE99e0fB71bE;
 
 
-contract ArbHunterGitCopilotMEVBot {
+contract GrokifiedAndProtocols {
     // Asset and router lists
     address[] public assets = [
         USDT, USDC, ETH, WETH, VMINT, sUSDS, USDL, TREAT, SSLP, LEO, BGB, SPX, VIRTUAL, UBEX, BLOCK, PLSPAD, BUSY, MANYU, TrueGBP, GYEN, EURC, XYO, OKB, BAO, STETH, WBTC, DAI, LINK, SHIB, PAXG, GRT, FET, LDO, NEXO, ENS, PEPE, CRV
