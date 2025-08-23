@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 //GROKIFIED
-// last written 22/08/2025 18:08
+// last written 23/08/2025 11:16
 pragma solidity ^0.8.21;
 
 // Interfaces (unchanged for brevity)
@@ -32,8 +32,9 @@ interface IUniswapV2Router {
 
 // CONFIG (unchanged)
 //METAMASK
-address constant OWNER = 0x551CD6C342B864359CfD4B0833C0ce8EeADC543C;
-//SEPOLIA?
+//address constant OWNER = 0x551CD6C342B864359CfD4B0833C0ce8EeADC543C;
+//COINBASE WALLET
+address constant OWNER = 0x2e81D6d536Fff3F16e6d03b3A31743B28767e25b;
 
 address constant AAVE_POOL = 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9;
 address constant USDT = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
