@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
 //GROKIFIED3
-// last written 23/08/2025 17:35
+// last written 24/08/2025 10:04
+//Rigged for metamask and REAL money
 // iMPROVED VERSION OF GROKMEVWPROTS
 
-pragma solidity ^0.8.21;
+pragma solidity ^0.8.30;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
@@ -105,7 +106,11 @@ address constant SushiswapV3 = 0xC36442b4a4522E871399CD717aBDD847Ab11FE88;
 
 
 contract GrokifiedAndProtocols is ReentrancyGuard {
-    address constant OWNER = 0x2e81D6d536Fff3F16e6d03b3A31743B28767e25b;
+    //coinbase wallet
+   //address constant OWNER = 0x2e81D6d536Fff3F16e6d03b3A31743B28767e25b;
+    //metamask wallet
+    address constant OWNER = 0x551CD6C342B864359CfD4B0833C0ce8EeADC543C;
+    
     address constant AAVE_POOL = 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9;
     address constant USDT = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
     address constant UNISWAP_ROUTER = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
